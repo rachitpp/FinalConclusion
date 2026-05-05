@@ -1,0 +1,24 @@
+# Core RAG
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-chroma>=0.1.0
+langchain-google-vertexai>=1.0.0      # Vertex AI LLM
+langchain-google-genai>=4.0.0         # Vertex AI Embeddings (replaces VertexAIEmbeddings)
+langchain-text-splitters>=0.2.0
+
+# Retrieval
+rank-bm25>=0.2.2                       # BM25 keyword retrieval
+sentence-transformers>=2.7.0           # Cross-encoder reranker
+
+# LangSmith Tracing
+langsmith>=0.1.0
+
+# PDF loading
+pypdf>=4.0.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Google Auth
+google-auth>=2.0.0
+google-cloud-aiplatform>=1.50.0

@@ -1,0 +1,30 @@
+# Credentials (NEVER commit these!)
+google-credentials.json
+.env
+Project_*.json
+*credentials*.json
+*service-account*.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+env/
+.venv/
+
+# ChromaDB
+chromaDb/
+.chroma/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
